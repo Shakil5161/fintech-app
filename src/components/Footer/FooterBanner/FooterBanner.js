@@ -18,7 +18,7 @@ const FooterBanner = () => {
                     </a>
                 </div>
             </div>
-            <div className="col-md-6 card border-0">
+            <div className="col-md-6 card border-0 p-0">
             <img src={corner} class="card-img" alt="..."/>
                 <div class="card-img-overlay">
                     <img width="100%" src={bnrIphone} alt="" srcset="" />

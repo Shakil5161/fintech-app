@@ -1,11 +1,8 @@
-.country{
+/* Only Navbar Components CSS here */
+.country-flag{
     padding: 0px 30px;
 }
 .nav-hover:hover{
-    background-color: #f6ffff2f;
-    border-radius: 5px;
-}
-.nav-active:active{
     background-color: #f6ffff2f;
     border-radius: 5px;
 }

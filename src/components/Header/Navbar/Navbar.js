@@ -46,9 +46,10 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+            {/* it's fake user data only use for design purposes data will come from API when user stay logged in */}
             <div>
               <FontAwesomeIcon className="m-auto" icon={faBell} />
-              <img className="country m-auto" src={Country} height="20px" alt="Country Img" srcset="" />
+              <img className="country-flag m-auto" src={Country} height="20px" alt="Country Img" srcset="" />
               <img
                 className="rounded-circle"
                 src={LoginUser}

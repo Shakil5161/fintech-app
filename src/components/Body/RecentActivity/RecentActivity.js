@@ -36,6 +36,7 @@ const RecentActivity = () => {
       status: "Approved",
     },
   ];
+  // it's fake data only use for design purposes & data will come from API
   return (
     <div className="ps-5 pe-5 bg-white rounded">
       <div className="d-flex justify-content-between pt-4 pb-4">
@@ -59,8 +60,6 @@ const RecentActivity = () => {
         <tbody>
           <tr>
             <td>Today, 15 January</td>
-            <td></td>
-            <td></td>
             <td></td>
           </tr>
           {transactionInfo.map((transaction) => (

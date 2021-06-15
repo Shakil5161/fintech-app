@@ -7,6 +7,7 @@ const Wallet = () => {
     { title: "My Dollar", btnText: "", balance: "$ 5000,00", QrCode: Qr },
     { title: "Add Balance", btnText: "", balance: "", QrCode: "" },
   ];
+  // it's fake data only use for design purposes data will come from API
   return (
     <div className="container text-white">
       <div className="pt-5 pb-2">

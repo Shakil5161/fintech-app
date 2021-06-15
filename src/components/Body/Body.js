@@ -4,7 +4,7 @@ import RecentActivity from "./RecentActivity/RecentActivity";
 import "./Body.css";
 const Body = () => {
   return (
-    <section className="container body-height body-bg d-flex">
+    <section className="container body-height body-bg">
       <div className="row">
         <div className="col-md-4">
           <h1>Action</h1>

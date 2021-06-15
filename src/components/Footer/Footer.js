@@ -3,7 +3,7 @@ import FooterBanner from "./FooterBanner/FooterBanner";
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="container p-0">
       <FooterBanner />
       <div className="d-flex justify-content-between pb-5">
         <small>

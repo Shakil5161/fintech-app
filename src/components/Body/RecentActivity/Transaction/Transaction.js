@@ -13,8 +13,6 @@ const Transaction = ({transaction}) => {
                 </div>
             </div>
         </td>
-        <td></td>
-        <td></td>
         <td>
             <h6>+{transaction.balance}</h6>
             <button type="button" class="btn btn-light border border-success ">{transaction.status}</button>
