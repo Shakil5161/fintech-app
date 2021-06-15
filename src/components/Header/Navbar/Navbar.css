@@ -1,0 +1,8 @@
+.country{
+    padding: 0px 30px;
+}
+.nav-hover:hover{
+    background-color: #f6ffff2f;
+    border-radius: 5px;
+    color: white !important;
+}

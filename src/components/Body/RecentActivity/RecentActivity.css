@@ -1,0 +1,8 @@
+.toggle{
+    background-color: #E5EDF9;
+    padding:10px;
+}
+.toggle-btn:hover{
+    background-color: white;
+    border-radius: 5px;
+}
