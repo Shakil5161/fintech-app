@@ -9,28 +9,28 @@ const RecentActivity = () => {
   const transactionInfo = [
     {
       title: "Dollar Balance (Primary)",
-      To: "Mrs Mohan . valobasha@email.com",
+      To: "Mrs Monira . monira@email.com",
       img: moniraApu,
       balance: "$1,750.00",
       status: "Approved",
     },
     {
       title: "Dollar Balance (Primary)",
-      To: "Mrs Mohan . valobasha@email.com",
+      To: "Mr Ali . ali@email.com",
       img: aliVi,
       balance: "$1,750.00",
       status: "Approved",
     },
     {
       title: "Dollar Balance (Primary)",
-      To: "Mrs Mohan . valobasha@email.com",
+      To: "Mr Asikur . asikur@email.com",
       img: asikurVi,
       balance: "$1,750.00",
       status: "Approved",
     },
     {
       title: "Dollar Balance (Primary)",
-      To: "Mrs Mohan . valobasha@email.com",
+      To: "Mr Mosharrf . mosharrf@email.com",
       img: mosharrfVi,
       balance: "$1,750.00",
       status: "Approved",

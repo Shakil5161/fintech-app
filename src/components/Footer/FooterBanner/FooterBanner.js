@@ -10,7 +10,7 @@ const FooterBanner = () => {
                 <h4>Get Fintech App</h4>
                 <p>Available On</p>
                 <div className="d-flex pt-3">
-                    <a href="#" className="pe-3">
+                    <a href="#" className="me-3">
                         <img height="40px" src={iStore} alt="" srcset="" />
                     </a>
                     <a href="#">
