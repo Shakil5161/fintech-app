@@ -46,7 +46,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <div className="d-flex">
+            <div>
               <FontAwesomeIcon className="m-auto" icon={faBell} />
               <img className="country m-auto" src={Country} height="20px" alt="Country Img" srcset="" />
               <img

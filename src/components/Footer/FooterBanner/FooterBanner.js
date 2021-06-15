@@ -5,7 +5,7 @@ import corner from '../../../img/Corner.png';
 import bnrIphone from '../../../img/iPhone Mask Group.png';
 const FooterBanner = () => {
     return (
-        <div className="container bg-white rounded d-flex justify-content-between p-0 mt-5  mb-5">
+        <div className="container row bg-white rounded d-flex justify-content-between p-0 mt-5  mb-5">
             <div className="col-md-6 p-5">
                 <h4>Get Fintech App</h4>
                 <p>Available On</p>
@@ -21,7 +21,7 @@ const FooterBanner = () => {
             <div className="col-md-6 card border-0">
             <img src={corner} class="card-img" alt="..."/>
                 <div class="card-img-overlay">
-                    <img src={bnrIphone} alt="" srcset="" />
+                    <img width="100%" src={bnrIphone} alt="" srcset="" />
                 </div>
         </div>
     </div>

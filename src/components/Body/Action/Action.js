@@ -3,7 +3,7 @@ import pay from '../../../img/pay.png';
 import request from '../../../img/request.png';
 import topUp from '../../../img/topup.png';
 import withdraw from '../../../img/withdraw.png';
-import ActionCard from '../ActionCard/ActionCard';
+import ActionCard from '../../AllCards/ActionCard/ActionCard';
 const Action = () => {
     const actionData = [
         {title: 'Pay',  img:pay},
@@ -12,7 +12,7 @@ const Action = () => {
         {title: 'Withdraw',  img:withdraw},
     ];
     return (
-            <div className="d-flex row">
+            <div className="row">
                 {
                     actionData.map(action =><ActionCard action={action}/>)
                 }

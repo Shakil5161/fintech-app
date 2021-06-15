@@ -1,14 +1,9 @@
 import React from "react";
 import Qr from "../../../img/QR.png";
-import WalletCard from "../WalletCard/WalletCard";
-const HeaderCard = () => {
+import WalletCard from "../../AllCards/WalletCard/WalletCard";
+const Wallet = () => {
   const cardInfo = [
-    {
-      title: "Dollar Balance",
-      btnText: "Primary",
-      balance: "$ 2780,00",
-      QrCode: Qr,
-    },
+    { title: "Dollar Balance", btnText: "Primary", balance: "$ 2780,00", QrCode: Qr,},
     { title: "My Dollar", btnText: "", balance: "$ 5000,00", QrCode: Qr },
     { title: "Add Balance", btnText: "", balance: "", QrCode: "" },
   ];
@@ -27,4 +22,4 @@ const HeaderCard = () => {
   );
 };
 
-export default HeaderCard;
+export default Wallet;

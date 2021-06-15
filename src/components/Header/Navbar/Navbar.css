@@ -4,5 +4,8 @@
 .nav-hover:hover{
     background-color: #f6ffff2f;
     border-radius: 5px;
-    color: white !important;
+}
+.nav-active:active{
+    background-color: #f6ffff2f;
+    border-radius: 5px;
 }

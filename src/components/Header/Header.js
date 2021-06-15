@@ -1,13 +1,14 @@
 import React from 'react';
-import HeaderCard from './HeaderCard/HeaderCard';
+import Wallet from './Wallet/Wallet';
 import Navbar from './Navbar/Navbar';
 import "./Header.css"
+
 
 const Header = () => {
     return (
         <div className="bg-color header">
             <Navbar/>
-            <HeaderCard/>
+            <Wallet/>
         </div>
     );
 };
