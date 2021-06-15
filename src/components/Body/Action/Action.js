@@ -10,7 +10,8 @@ const Action = () => {
         {title: 'Request',  img:request},
         {title: 'TopUp',  img:topUp},
         {title: 'Withdraw',  img:withdraw},
-    ];
+    ]; 
+    // it's fake data only use for design purposes 
     return (
             <div className="row">
                 {
